@@ -4,7 +4,8 @@ from tkinter import messagebox
 import json
 import os
 
-# Load and keep it in memory
+# Load and save it in memory
+# this part is for just save the data of users and after registration while i am back to log in i just need to give him the details and i will be abale to log in again.
 def load_data():
     if os.path.exists("data.json"):
         with open("data.json", "r") as file:
