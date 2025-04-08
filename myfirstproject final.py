@@ -1,3 +1,4 @@
+#here i am going discuss about most important part for my app and those are:tkinter,messagebox,json and os.
 import tkinter as tk
 from tkinter import messagebox
 import json
