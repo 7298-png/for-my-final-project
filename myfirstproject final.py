@@ -160,7 +160,7 @@ def add_emergency_info(username):
         save_data(data)
         messagebox.showinfo("Success", "Emergency Information Saved!")
         win.destroy()
-
+#this should be called emergency info where if someone fall in to trouble so that somebody can find the information about him to identify the victim 
     create_info_window("Add Emergency Info", [
         "Trustable Person Name:", "Trustable Person Contact:", "Present Address:", "Family Name:"
     ], save)
