@@ -59,7 +59,7 @@ def open_dashboard(username):
     dashboard_window.configure(bg=BG_COLOR)
 
     tk.Label(dashboard_window, text="I AM WELCOMING YOU !", font=FONT_BIG, bg=BG_COLOR).pack(pady=20)
-
+#at the previous stage there was no viewing section now i just added the viewing section so while we make a log in then you can see our saved details that we have saved .
     buttons = [
         ("View My Info", view_saved_data),
         ("Add Bank Details", add_bank_details),
