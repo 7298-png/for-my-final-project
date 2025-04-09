@@ -23,3 +23,6 @@ import json
 import os
 
 these are the parts which is important to install the app or run the app .
+# Running the app
+myfirstproject final.py 
+
