@@ -91,7 +91,7 @@ def create_info_window(title, labels_entries, save_callback):
               font=FONT_NORMAL, bg=BTN_COLOR, fg="white").pack(pady=10)
     return entries
 
-# Viewing Info Function
+# section for viewing 
 def view_saved_data(username):
     data = load_data()
     user_info = data.get(username, {}).get("info", {})
