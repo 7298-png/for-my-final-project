@@ -25,6 +25,7 @@ FONT_NORMAL = ("Arial", 16)
 FONT_SMALL = ("Arial", 14)
 
 # Register and Login for Functions
+# this is the first step to entry app where if the user data has already saved then just have to give the correct information to the app and do the log in or if we dont have any saved data before so we register as a new user and save it as before .
 def register_user():
     username = entry_user.get()
     password = entry_password.get()
