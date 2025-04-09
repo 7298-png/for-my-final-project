@@ -134,7 +134,7 @@ def add_bank_details(username):
         save_data(data)
         messagebox.showinfo("Success", "Bank Details Saved!")
         win.destroy()
-
+#here will be the most secure and important things which is very personal 
     create_info_window("Add Bank Details", [
         "Card Number:", "Expiry Date:", "Card CVV:", "Card Owner Name:"
     ], save)
