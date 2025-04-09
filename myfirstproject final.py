@@ -17,11 +17,12 @@ def save_data(data):
         json.dump(data, file, indent=4)
 
 # changing the color style and font style 
+# while we will be able to run our app then you can find this important things like color configuaration and font style 
 BG_COLOR = "#f2e9f7"
 BTN_COLOR = "#d291bc"
-FONT_BIG = ("Arial", 18)
-FONT_NORMAL = ("Arial", 14)
-FONT_SMALL = ("Arial", 12)
+FONT_BIG = ("Arial", 20)
+FONT_NORMAL = ("Arial", 16)
+FONT_SMALL = ("Arial", 14)
 
 # Register and Login for Functions
 def register_user():
