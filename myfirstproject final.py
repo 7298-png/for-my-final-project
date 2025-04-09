@@ -51,6 +51,7 @@ def login_user():
         messagebox.showerror("Error", "Invalid Credentials!")
 
 # Dashboard for Function
+# after log in there will be a different background and other things and this is actually called dashboard .
 def open_dashboard(username):
     login_window.destroy()
     dashboard_window = tk.Tk()
