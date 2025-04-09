@@ -36,3 +36,16 @@ from tkinter import messagebox
 import json
 import os
 
+## Project Structure
+#error handling part :
+In this code there are 3 error handling factors : 1)register fuction (input) : if username and password:
+    ...
+else:
+    messagebox.showerror("Error", "Please enter username and password!")
+2)registration function (username): if username in data:
+    messagebox.showerror("Error", "User already exists!")
+3) log in function (wrong username/password): if username in data and data[username]["password"] == password:
+    ...
+else:
+    messagebox.showerror("Error", "Invalid Credentials!")
+
