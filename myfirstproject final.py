@@ -1,3 +1,4 @@
+
 #here i am going discuss about most important part for my app and those are:tkinter,messagebox,json and os.
 import tkinter as tk
 from tkinter import messagebox
@@ -76,7 +77,7 @@ def open_dashboard(username):
 
     dashboard_window.mainloop()
 
-# renewable Info Window Generate
+# creating and renewable info window generate
 def create_info_window(title, labels_entries, save_callback):
     window = tk.Toplevel()
     window.title(title)
