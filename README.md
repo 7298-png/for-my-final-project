@@ -12,3 +12,7 @@ from tkinter import messagebox
 import json
 import os
 these are the parts which is important to install the app or run the app .
+## How to run the app 
+We just need to have the user details and passwords 
+For new users we have to make a registration where the username and password that we need to create and press the registration button that’s it and when the registration will be completed we can use the username and passwords that we have saved while making the registration and make the log in after that we can have the  features of this app .
+
