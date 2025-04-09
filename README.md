@@ -6,3 +6,9 @@ b) I have added a extra information feature where we can put passport details ,h
 c) I added another feature called emergency info where we can put trustable person name ,trustable person contact number ,present address ,family name. this feature will work at any emergency situation . what if the user can make the log in successfully done and after that somebody can have that information which is needed in this time and make a help for the user .
 d) I also added a note feature where we can put our day routine ,next planning, occasion timing and exam timing where we can see immediate activities which we need to do .
 e) the last feature is called user data where will be the users gmail id / apple id/ national id/ some of the important passowords cause nowadays we always need to make a password for each and everything so for every time we can not remember the passcode or passwords for always so we can write it there and save it as a unique name so that the user can remember the passwords .
+ To run the app, ensure you have Python installed, and then install the required dependencies from the `requirements. It is all about the python and 
+import tkinter as tk
+from tkinter import messagebox
+import json
+import os
+these are the parts which is important to install the app or run the app .
