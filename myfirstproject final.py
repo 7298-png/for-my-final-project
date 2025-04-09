@@ -173,7 +173,7 @@ def add_notes(username):
         save_data(data)
         messagebox.showinfo("Success", "Notes Saved!")
         win.destroy()
-
+#it can be used by schedule management for daily life 
     create_info_window("Add Notes", [
         "Day Routine:", "Next Planning:", "Occasion Timing:", "Exam Timing:"
     ], save)
