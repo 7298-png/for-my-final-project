@@ -108,11 +108,11 @@ def view_saved_data(username):
         "<Configure>",
         lambda e: canvas.configure(scrollregion=canvas.bbox("all"))
     )
-
+#canvas part from here 
     canvas.create_window((0, 0), window=scrollable_frame, anchor="nw")
     canvas.configure(yscrollcommand=scrollbar.set)
 
-    tk.Label(scrollable_frame, text="My Saved Info", font=("Arial", 22, "bold"), bg=BG_COLOR).pack(pady=10)
+    tk.Label(scrollable_frame, text="My Saved Info", font=("Arial", 24, "bold"), bg=BG_COLOR).pack(pady=10)
 
     if not user_info:
         tk.Label(scrollable_frame, text="No saved information found.", font=FONT_NORMAL, bg=BG_COLOR).pack(pady=10)
