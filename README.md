@@ -16,3 +16,10 @@ these are the parts which is important to install the app or run the app .
 We just need to have the user details and passwords 
 For new users we have to make a registration where the username and password that we need to create and press the registration button that’s it and when the registration will be completed we can use the username and passwords that we have saved while making the registration and make the log in after that we can have the  features of this app .
 
+To run the app, ensure you have Python installed, and then install the required dependencies from the `requirements. It is all about the python and 
+import tkinter as tk
+from tkinter import messagebox
+import json
+import os
+
+these are the parts which is important to install the app or run the app .
