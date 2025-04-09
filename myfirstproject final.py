@@ -147,9 +147,9 @@ def add_extra_info(username):
         save_data(data)
         messagebox.showinfo("Success", "Extra Information Saved!")
         win.destroy()
-
+#some of the necessery things which is always related to us and in this app we called it as extra information 
     create_info_window("Add Extra Information", [
-        "Passport Details:", "Home Address:", "Blood Group:", "Permanent Address:"
+        "Passport Details and number:", "Home Address:", "Blood Group:", "Permanent Address:"
     ], save)
 
 def add_emergency_info(username):
