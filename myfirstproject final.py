@@ -58,7 +58,7 @@ def open_dashboard(username):
     dashboard_window.title("Dashboard")
     dashboard_window.configure(bg=BG_COLOR)
 
-    tk.Label(dashboard_window, text="Welcome Back!", font=FONT_BIG, bg=BG_COLOR).pack(pady=20)
+    tk.Label(dashboard_window, text="I AM WELCOMING YOU !", font=FONT_BIG, bg=BG_COLOR).pack(pady=20)
 
     buttons = [
         ("View My Info", view_saved_data),
